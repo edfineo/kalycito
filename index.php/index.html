@@ -28,181 +28,11 @@
   <script src="../../ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
   <script src="../modules/mod_avatar_articles_nivo/assets/js/jquery.nivo.slider.pack.js" type="text/javascript"></script>
   <script src="../templates/at_nine_flat/html/mod_menu/assets/js/avatar_menu_custom.js" type="text/javascript"></script>
-  <script type="text/javascript">
-jQuery(window).on('load',  function() {
-				new JCaption('img.caption');
-			});jQuery.noConflict();
-  </script>
+  <script type="text/javascript" src="small00.js"></script>
 <link rel="stylesheet" href="../templates/at_nine_flat/showcases/green/css/color.css" type="text/css"/><meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
-<script type='text/javascript'>
-
-			jQuery.noConflict();
-
-			(function($){
-
-				$(document).ready(function()
-
-				{
-
-					if ($('body').hasClass('avatar-responsive'))
-
-					{
-
-						var mainMenu = $('.at-main-menu > ul');
-
-						var mainMenWrap = $ ('.at-main-menu');
-
-						
-
-						mainMenWrap.find('span.menu-pull').click(function(event){
-
-							$(this.getParent()).find('ul:first').slideToggle();
-
-						});
-
-						
-
-						mainMenu.find('li > span.pull').click(function(event){
-
-							$(this.getParent()).find('ul:first').slideToggle();
-
-						});
-
-						
-
-						$(window).resize(function(){
-
-							if($(window).width() > 767) {
-
-								mainMenu.find('ul').removeAttr('style');
-
-							}
-
-						});
-
-						function at_responsive_transfer(){				
-
-							var at_default_width = 1000;
-
-							if($(window).width() < at_default_width){
-
-								$('.block-default-width').addClass('block-max-width-100');
-
-								$('.block-default-width').addClass('block-default-width-tmp');
-
-								$('.block-default-width-tmp').removeClass('block-default-width');
-
-							}
-
-							else{
-
-								$('.block-default-width-tmp').removeClass('block-max-width-100');
-
-								$('.block-default-width-tmp').addClass('block-default-width');
-
-								$('.block-default-width').removeClass('block-default-width-tmp');
-
-							}			
-
-						}		    
-
-						at_responsive_transfer();			
-
-						$(window).resize(function(e){		    	
-
-							at_responsive_transfer();		    
-
-						});
-
-					}
-
-				});
-
-			})(jQuery)
-
-		</script>
-
-			<script type='text/javascript'>
-
-			jQuery.noConflict();
-
-			(function($){
-
-				$(document).ready(function() {
-
-					var goToTop = $('#avatar-go-to-top');
-
-					goToTop.hide();
-
-					
-
-					// fade in #back-top
-
-					$(function () {
-
-						$(window).scroll(function () {
-
-							if ($(this).scrollTop() > 100) {
-
-								goToTop.fadeIn();
-
-							} else {
-
-								goToTop.fadeOut();
-
-							}
-
-						});
-
-				
-
-						// scroll body to 0px on click
-
-						goToTop.click(function () {
-
-							$('body,html').animate({
-
-								scrollTop: 0
-
-							}, 800);
-
-							return false;
-
-						});
-
-					});
-
-				});
-
-			})(jQuery)
-
-			</script>
-
-		
-
-	 		<script type='text/javascript'>
-
-				jQuery.noConflict();
-
-				(function($){
-
-					$(document).ready(function()
-
-					{
-
-						avatarTemplate.template.name = "at_nine_flat" 
-
-						avatarTemplate.image.initEffects();
-
-						avatarTemplate.layout.init();
-
-						avatarTemplate.settingPanel.init();
-
-					});
-
-				})(jQuery)
-
-			</script>
+<script type='text/javascript' src="small.js"></script>
+<script type='text/javascript' src="small01.js"></script>
+<script type='text/javascript' src="small02.js"></script>
 
 	 	<style type="text/css">
 body { background-image: url(../templates/at_nine_flat/backgrounds/white.png);}
@@ -425,21 +255,32 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 									<div class="avatar-module avatar-top-social">
 					<div class="avatar-module-content">
 				
-<div class="at-social-links">
+<div class="at-social-links">
 
-<div class="at-social-enews-effect-1">
-<ul class="at-social-list">
 
-	<li class="at-social-item" style="height: 30px;width: 30px;">
-		<a href="https://www.linkedin.com/company/kalycito" target="_blank"><div style="height: 20px;width: 20px;background-image: url('../images/at_social_icons/linkedin.png')"></div></a>
-	</li>	
+<div class="at-social-enews-effect-1">
 
-	<li class="at-social-item" style="height: 30px;width: 30px;">
-		<a href="https://www.facebook.com/Kalycito" target="_blank"><div style="height: 20px;width: 20px;background-image: url('../images/at_social_icons/facebook.png')"></div></a>
-	</li>	
+<ul class="at-social-list">
 
-<li class="clearbreak"></li>
-</ul>
+
+	<li class="at-social-item" style="height: 30px;width: 30px;">
+
+		<a href="https://www.linkedin.com/company/kalycito" target="_blank"><div style="height: 20px;width: 20px;background-image: url('../images/at_social_icons/linkedin.png')"></div></a>
+
+	</li>	
+
+
+	<li class="at-social-item" style="height: 30px;width: 30px;">
+
+		<a href="https://www.facebook.com/Kalycito" target="_blank"><div style="height: 20px;width: 20px;background-image: url('../images/at_social_icons/facebook.png')"></div></a>
+
+	</li>	
+
+
+<li class="clearbreak"></li>
+
+</ul>
+
 </div>
 </div>			</div>
 		</div>
@@ -526,206 +367,316 @@ jQuery.noConflict();
 			<div class="avatar-module no-padding-margin-side avatar-module-7">
 					<div class="avatar-module-content">
 				
-<div class="at-nine-flat-showcase" style="width:100%;display:inline-block;">
+<div class="at-nine-flat-showcase" style="width:100%;display:inline-block;">
 
-<div class="at-nine-flat-features-1">
+
+<div class="at-nine-flat-features-1">
+
 		<div class='at-primary-group'>
-					<div class="items-row cols-4 row-0 row-fluid">
+					<div class="items-row cols-4 row-0 row-fluid">
+
 					
-					
-						<div class="at-intro-item-wrap span3">
-						    <div class="at-intro-item">
+					
+
+						<div class="at-intro-item-wrap span3">
+
+						    <div class="at-intro-item">
+
 								
-							    	<div class="avatar-item-img" style="background-image: url('../images/usp-icons/interoperable.png');"> 
-									</div>
+							    	<div class="avatar-item-img" style="background-image: url('../images/usp-icons/interoperable.png');"> 
+
+									</div>
+
 								
-								
 								
-						        
-								<div class="ch-info">
-									<div class="ch-info-content">
+
+								
+						        
+
+								<div class="ch-info">
+
+									<div class="ch-info-content">
+
 										<h1 class="avatar-char-color">Interoperable</h1>
-									</div>
-								</div>
+									</div>
+
+								</div>
+
 								
-							</div>
+							</div>
+
 						
 						
-				        </div>		
-						
-				
-				
-			
-					
-						<div class="at-intro-item-wrap span3">
-						    <div class="at-intro-item">
-								
-							    	<div class="avatar-item-img" style="background-image: url('../images/usp-icons/deterministic.png');"> 
-									</div>
-								
-								
-								
-						        
-								<div class="ch-info">
-									<div class="ch-info-content">
-										<h1 class="avatar-char-color">Deterministic</h1>
-									</div>
-								</div>
-								
-							</div>
-						
-						
-				        </div>		
+				        </div>		
+
 						
 				
 				
 			
-					
-						<div class="at-intro-item-wrap span3">
-						    <div class="at-intro-item">
-								
-							    	<div class="avatar-item-img" style="background-image: url('../images/usp-icons/synchronisation.png');"> 
-									</div>
-								
-								
-								
-						        
-								<div class="ch-info">
-									<div class="ch-info-content">
-										<h1 class="avatar-char-color">Synchronized</h1>
-									</div>
-								</div>
-								
-							</div>
-						
-						
-				        </div>		
-						
-				
-				
-			
-					
-						<div class="at-intro-item-wrap span3">
-						    <div class="at-intro-item">
-								
-							    	<div class="avatar-item-img" style="background-image: url('../images/usp-icons/secure.png');"> 
-									</div>
-								
-								
-								
-						        
-								<div class="ch-info">
-									<div class="ch-info-content">
-										<h1 class="avatar-char-color">Secure</h1>
-									</div>
-								</div>
-								
-							</div>
-						
-						
-				        </div>		
-						
-						</div>
-						
-				
-				
-			
-					<div class="items-row cols-4 row-1 row-fluid">
 					
-					
-						<div class="at-intro-item-wrap span3">
-						    <div class="at-intro-item">
+
+						<div class="at-intro-item-wrap span3">
+
+						    <div class="at-intro-item">
+
 								
-							    	<div class="avatar-item-img" style="background-image: url('../images/usp-icons/open-source.png');"> 
-									</div>
+							    	<div class="avatar-item-img" style="background-image: url('../images/usp-icons/deterministic.png');"> 
+
+									</div>
+
 								
-								
 								
-						        
-								<div class="ch-info">
-									<div class="ch-info-content">
+
+								
+						        
+
+								<div class="ch-info">
+
+									<div class="ch-info-content">
+
+										<h1 class="avatar-char-color">Deterministic</h1>
+									</div>
+
+								</div>
+
+								
+							</div>
+
+						
+						
+				        </div>		
+
+						
+				
+				
+			
+					
+
+						<div class="at-intro-item-wrap span3">
+
+						    <div class="at-intro-item">
+
+								
+							    	<div class="avatar-item-img" style="background-image: url('../images/usp-icons/synchronisation.png');"> 
+
+									</div>
+
+								
+								
+
+								
+						        
+
+								<div class="ch-info">
+
+									<div class="ch-info-content">
+
+										<h1 class="avatar-char-color">Synchronized</h1>
+									</div>
+
+								</div>
+
+								
+							</div>
+
+						
+						
+				        </div>		
+
+						
+				
+				
+			
+					
+
+						<div class="at-intro-item-wrap span3">
+
+						    <div class="at-intro-item">
+
+								
+							    	<div class="avatar-item-img" style="background-image: url('../images/usp-icons/secure.png');"> 
+
+									</div>
+
+								
+								
+
+								
+						        
+
+								<div class="ch-info">
+
+									<div class="ch-info-content">
+
+										<h1 class="avatar-char-color">Secure</h1>
+									</div>
+
+								</div>
+
+								
+							</div>
+
+						
+						
+				        </div>		
+
+						
+						</div>
+
+						
+				
+				
+			
+					<div class="items-row cols-4 row-1 row-fluid">
+
+					
+					
+
+						<div class="at-intro-item-wrap span3">
+
+						    <div class="at-intro-item">
+
+								
+							    	<div class="avatar-item-img" style="background-image: url('../images/usp-icons/open-source.png');"> 
+
+									</div>
+
+								
+								
+
+								
+						        
+
+								<div class="ch-info">
+
+									<div class="ch-info-content">
+
 										<h1 class="avatar-char-color">Open source</h1>
-									</div>
-								</div>
+									</div>
+
+								</div>
+
 								
-							</div>
+							</div>
+
 						
 						
-				        </div>		
+				        </div>		
+
 						
 				
 				
 			
-					
-						<div class="at-intro-item-wrap span3">
-						    <div class="at-intro-item">
+					
+
+						<div class="at-intro-item-wrap span3">
+
+						    <div class="at-intro-item">
+
 								
-							    	<div class="avatar-item-img" style="background-image: url('../images/usp-icons/platform.png');"> 
-									</div>
+							    	<div class="avatar-item-img" style="background-image: url('../images/usp-icons/platform.png');"> 
+
+									</div>
+
 								
-								
 								
-						        
-								<div class="ch-info">
-									<div class="ch-info-content">
+
+								
+						        
+
+								<div class="ch-info">
+
+									<div class="ch-info-content">
+
 										<h1 class="avatar-char-color">Lean Platform</h1>
-									</div>
-								</div>
+									</div>
+
+								</div>
+
 								
-							</div>
+							</div>
+
 						
 						
-				        </div>		
+				        </div>		
+
 						
 				
 				
 			
-					
-						<div class="at-intro-item-wrap span3">
-						    <div class="at-intro-item">
+					
+
+						<div class="at-intro-item-wrap span3">
+
+						    <div class="at-intro-item">
+
 								
-							    	<div class="avatar-item-img" style="background-image: url('../images/usp-icons/performance.png');"> 
-									</div>
+							    	<div class="avatar-item-img" style="background-image: url('../images/usp-icons/performance.png');"> 
+
+									</div>
+
 								
-								
 								
-						        
-								<div class="ch-info">
-									<div class="ch-info-content">
+
+								
+						        
+
+								<div class="ch-info">
+
+									<div class="ch-info-content">
+
 										<h1 class="avatar-char-color">Performance</h1>
-									</div>
-								</div>
+									</div>
+
+								</div>
+
 								
-							</div>
+							</div>
+
 						
 						
-				        </div>		
+				        </div>		
+
 						
 				
 				
 			
-					
-						<div class="at-intro-item-wrap span3">
-						    <div class="at-intro-item">
+					
+
+						<div class="at-intro-item-wrap span3">
+
+						    <div class="at-intro-item">
+
 								
-							    	<div class="avatar-item-img" style="background-image: url('../images/usp-icons/customisation.png');"> 
-									</div>
+							    	<div class="avatar-item-img" style="background-image: url('../images/usp-icons/customisation.png');"> 
+
+									</div>
+
 								
-								
 								
-						        
-								<div class="ch-info">
-									<div class="ch-info-content">
+
+								
+						        
+
+								<div class="ch-info">
+
+									<div class="ch-info-content">
+
 										<h1 class="avatar-char-color">Customized</h1>
-									</div>
-								</div>
+									</div>
+
+								</div>
+
 								
-							</div>
+							</div>
+
 						
 						
-				        </div>		
+				        </div>		
+
 						
-						</div>
+						</div>
+
 						
 				</div>
 				
@@ -1039,9 +990,12 @@ jQuery(document).ready(function() {
 									<div class="avatar-module no-padding-margin-side">
 					<div class="avatar-module-content">
 				
-
-<ul class="menu clearfix avatar-footer-nav">
-<li class="item-101 current active"><a href="../index.html" >Home</a></li><li class="avatar-menu-before item-106"><a href="about-us.html" >About us</a></li><li class="avatar-menu-before item-107"><a href="services.html" >Services</a></li><li class="avatar-menu-before item-108"><a href="solution.html" >Solutions</a></li><li class="avatar-menu-before item-110"><a href="resources.html" >Resources</a></li><li class="avatar-menu-before item-113"><a href="career.html" >Careers</a></li><li class="avatar-menu-before item-114"><a href="contact.html" >Contact</a></li></ul><div style="clear:both;"></div>
+
+
+<ul class="menu clearfix avatar-footer-nav">
+
+<li class="item-101 current active"><a href="../index.html" >Home</a></li><li class="avatar-menu-before item-106"><a href="about-us.html" >About us</a></li><li class="avatar-menu-before item-107"><a href="services.html" >Services</a></li><li class="avatar-menu-before item-108"><a href="solution.html" >Solutions</a></li><li class="avatar-menu-before item-110"><a href="resources.html" >Resources</a></li><li class="avatar-menu-before item-113"><a href="career.html" >Careers</a></li><li class="avatar-menu-before item-114"><a href="contact.html" >Contact</a></li></ul><div style="clear:both;"></div>
+
 			</div>
 		</div>
 	
@@ -1052,25 +1006,39 @@ jQuery(document).ready(function() {
 									<div class="avatar-module no-padding-marging">
 					<div class="avatar-module-content">
 				
-<div class="at-social-links">
+<div class="at-social-links">
 
-<div class="at-social-enews-effect-1">
-<ul class="at-social-list">
 
-	<li class="at-social-item" style="height: 45px;width: 45px;">
-		<a href="https://www.linkedin.com/company/kalycito" target="_blank"><div style="height: 35px;width: 35px;background-image: url('../images/at_social_icons/Linkedin1.png')"></div></a>
-	</li>	
+<div class="at-social-enews-effect-1">
 
-	<li class="at-social-item" style="height: 45px;width: 45px;">
-		<a href="https://www.facebook.com/Kalycito" target="_blank"><div style="height: 35px;width: 35px;background-image: url('../images/at_social_icons/Facebook1.png')"></div></a>
-	</li>	
+<ul class="at-social-list">
 
-	<li class="at-social-item" style="height: 45px;width: 45px;">
-		<a href="https://www.youtube.com/channel/UCyXtHWnWskJWVbNJQJWKLLw" target="_blank"><div style="height: 35px;width: 35px;background-image: url('../images/at_social_icons/Youtube1.png')"></div></a>
-	</li>	
 
-<li class="clearbreak"></li>
-</ul>
+	<li class="at-social-item" style="height: 45px;width: 45px;">
+
+		<a href="https://www.linkedin.com/company/kalycito" target="_blank"><div style="height: 35px;width: 35px;background-image: url('../images/at_social_icons/Linkedin1.png')"></div></a>
+
+	</li>	
+
+
+	<li class="at-social-item" style="height: 45px;width: 45px;">
+
+		<a href="https://www.facebook.com/Kalycito" target="_blank"><div style="height: 35px;width: 35px;background-image: url('../images/at_social_icons/Facebook1.png')"></div></a>
+
+	</li>	
+
+
+	<li class="at-social-item" style="height: 45px;width: 45px;">
+
+		<a href="https://www.youtube.com/channel/UCyXtHWnWskJWVbNJQJWKLLw" target="_blank"><div style="height: 35px;width: 35px;background-image: url('../images/at_social_icons/Youtube1.png')"></div></a>
+
+	</li>	
+
+
+<li class="clearbreak"></li>
+
+</ul>
+
 </div>
 </div>			</div>
 		</div>
