@@ -1,0 +1,76 @@
+body { background-image: url(../templates/at_nine_flat/backgrounds/white.png);}
+a:link, a:visited { color:#333333;}
+a:hover { color: #ab3a3a;}
+body{ font-family: Tahoma, Geneva, sans-serif;}
+.at-main-menu *{ font-family: Tahoma, Geneva, sans-serif;}
+h1{font-family: Tahoma;}
+h2{font-family: Tahoma;}
+h3{font-family: Tahoma;}
+h4{font-family: Tahoma;}
+h5{font-family: Tahoma;}
+h6{font-family: Tahoma;}
+</style>		<style type="text/css">
+			.avatar-wrapper{
+				width: 1000px;
+				margin: auto;
+			}
+			
+			#avatar-pos-top-left {
+				width: 22%;
+			}
+			#avatar-pos-top-middle {
+				width: 68%;
+			}
+			#avatar-pos-top-right {
+				width: 10%;
+			}
+			
+			#avatar-pos-footer-left {
+				width: 70%;
+			}
+			#avatar-pos-footer-middle {
+				width: 10%;
+			}
+			#avatar-pos-footer-right {
+				width: 20%;
+			}
+			
+			#avatar-pos-promo-top-left {
+				width: 50%;
+			}
+			#avatar-pos-promo-top-middle {
+				width: 100%;
+			}
+			#avatar-pos-promo-top-right {
+				width: 50%;
+			}
+			
+			#avatar-pos-promo-bottom-left {
+				width: 50%;
+			}
+			#avatar-pos-promo-bottom-middle {
+				width: 100%;
+			}
+			#avatar-pos-promo-bottom-right {
+				width: 50%;
+			}
+			
+			#avatar-left {
+				width: 23%;
+			}
+			#avatar-right {
+				width: 23%;
+			}
+			#avatar-content {
+				width: 100%;
+			}
+			#avatar-pos-inner-left {
+				width: 23%;
+			}
+			#avatar-pos-inner-right {
+				width: 23%;
+			}
+			
+			#avatar-main-content{
+				width: 100%;
+			}
