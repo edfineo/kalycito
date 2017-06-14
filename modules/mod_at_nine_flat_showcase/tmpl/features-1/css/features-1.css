@@ -1,8 +1,86 @@
-.at-nine-flat-features-1 .at-intro-item {position:relative;background:#fff;margin:5px 0;padding:10px 10px 10px 75px;}
-.at-nine-flat-features-1 .at-intro-item .avatar-item-img {position:absolute;left:0;top:0;width:65px;height:100%;background-repeat:no-repeat;background-size:cover;background-color:#c7c7c7;background-position:center;}
-.at-nine-flat-features-1 .at_readmore_text {font-weight:700;}
-.at-nine-flat-features-1 .at-intro-item:hover .avatar-item-img {background-color:#b23004;}
-.at-nine-flat-features-1 .at-intro-item,.at-nine-flat-features-1 .at-intro-item:hover .avatar-item-img {transition:all 200ms ease-in;-webkit-transition:all 200ms ease-in;-moz-transition:all 200ms ease-in;-ms-transition:all 200ms ease-in;-o-transition:all 200ms ease-in;}
-.at-nine-flat-features-1 .items-row {margin-bottom:50px;}
-.at-nine-flat-features-1 .items-row:last-child {margin-bottom:0;}
-.at-nine-flat-features-1 .at-intro-item:hover a,.at-nine-flat-features-1 .at-intro-item:hover .at-item-title {color:#fff!important;}
+.at-nine-flat-features-1 .at-intro-item {
+
+	position: relative;
+
+	padding: 10px 10px 10px 75px;
+
+	margin: 5px 0;
+
+}
+
+.at-nine-flat-features-1 .at-intro-item .avatar-item-img{
+
+	position: absolute;
+
+	left: 0;
+
+	top: 0;
+
+	width: 65px;
+
+	height: 100%;
+
+	background-repeat: no-repeat;
+
+	background-size: cover;
+
+	background-color: #c7c7c7;
+
+	background-position: center;
+
+}
+
+.at-nine-flat-features-1 .at_readmore_text{
+
+	font-weight: bold;
+
+}
+
+.at-nine-flat-features-1 .at-intro-item:hover .avatar-item-img{
+
+	background-color: #b23004;
+
+}
+
+.at-nine-flat-features-1 .at-intro-item,
+
+.at-nine-flat-features-1 .at-intro-item:hover .avatar-item-img{
+
+	transition: all 200ms ease-in;
+
+	-webkit-transition: all 200ms ease-in;
+
+	-moz-transition: all 200ms ease-in;
+
+	-ms-transition: all 200ms ease-in;
+
+	-o-transition: all 200ms ease-in;
+
+}
+
+.at-nine-flat-features-1 .items-row{
+
+	margin-bottom: 50px;
+
+}
+
+.at-nine-flat-features-1 .items-row:last-child{
+
+	margin-bottom: 0px;
+
+}
+
+.at-nine-flat-features-1 .at-intro-item {
+
+	background: #fff;
+
+}
+
+.at-nine-flat-features-1 .at-intro-item:hover a,
+
+.at-nine-flat-features-1 .at-intro-item:hover .at-item-title{
+
+	color: #fff !important;
+
+}
+
