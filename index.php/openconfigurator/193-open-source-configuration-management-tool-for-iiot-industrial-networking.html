@@ -1,0 +1,733 @@
+<!DOCTYPE html><!-- Amazing Template Framework 1.2.0 pro -->
+<html lang="en-gb" dir="ltr" >
+	
+<!-- Mirrored from www.kalycito.com/index.php/openconfigurator/193-open-source-configuration-management-tool-for-iiot-industrial-networking by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 14 Jun 2017 05:23:53 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<script>window.dataLayer = window.dataLayer || [];</script>
+		<link href="https://fonts.googleapis.com/css?family=" rel="stylesheet" type="text/css">  <base  />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="Kalycito, Kalycito - Your R&amp;D Partner, R&amp;D, R&amp;D Services, R&amp;D Partner, IT companies in Coimbatore, IT companies in cbe, IT industries in Coimbatore, IT industries in cbe, job opportunities, Technology, embedded jobs in coimbatore, software jobs in coimbatore, software jobs in cbe, embedded jobs in cbe, Coimbatore java jobs, Coimbatore IT jobs, coimbatore embedded jobs, coimbatore software jobs, India embedded jobs, India industrial ethernet jobs, india iot jobs, job opportunities in coimbatore, recruitment in Coimbatore, Tamil Nadu careers, Tamil Nadu job listings, Tamil Nadu job search, recruitment, java jobs in coimbatore, java developer jobs in coimbatore, Embedded companies coimbatore, Embedded companies in coimbatore, Top Embedded companies in coimbatore, IT, IOT, IOT Devices, IOT Platform, Internet of Things, Hard real time systems, Industrial Ethernet, Ethernet, Embedded, Embedded Development, Embedded systems, Embedded systems design, Embedded real time systems,Embedded hardware, Embedded hardware design, Embedded software, Embedded software design, Embedded infrastructure, Communication infrastructure, Network, Networking, open source,  Hardware integration, Software integration, hardware and software integration, Industrial Ethernet protocols, Software development, FPGA development, Ethernet powerlink, Embedded Integration, Micro controllers, Multiprocessor &amp; Distributed Architectures, Enterprise Networking, Integration, Continuous Integration, Instrumentation, M2M Communications, Industrial Automation, Industrial Networking, Cloud Technologies, Big Data and Analytics, Network Security, Network Scalability, Jenkins, Device Driver Development, Porting, Middleware Development, Protocol Stack, Energy management system, Energy, Energy conservation, Energy efficiency, Monitoring solution, Equipment monitoring solution, Equipment Maintenance, Cloud solution, Instrumentation, Data Acquisition, Analytics, Alerting systems, Equipment Utilization, Production Quality, MIS, MES, Signage, Remote Monitoring, BMS, BAS, Management information systems, Manufacturing Execution Systems, Building Management System, Building Automation System, Extended workbench, Powerlink Integration" />
+  <meta name="robots" content="index, follow" />
+  <meta name="description" content="Kalycito - Your R&amp;D Partner!" />
+  <title>openCONFIGURATOR - Open source configuration management tool for IIoT &amp; Industrial Networking</title>
+  <link href="../../templates/at_nine_flat/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link rel="stylesheet" href="../../templates/at_nine_flat/core/controllers/gzip72dd.css?L2hvbWUva2FseWNpdG9pbmZvdGVjaC9wdWJsaWNfaHRtbC9jYWNoZS9hdF9uaW5lX2ZsYXQvdGVtcGxhdGUuY3Nz" type="text/css" media="" />
+  <link rel="stylesheet" href="../../modules/mod_at_social_links/assets/css/at.social.css" type="text/css" />
+  <link rel="stylesheet" href="../../modules/mod_at_social_links/assets/css/enews-effect-1/enews-effect-1.css" type="text/css" />
+  <script src="../../templates/at_nine_flat/core/controllers/gzipc001.js?L2hvbWUva2FseWNpdG9pbmZvdGVjaC9wdWJsaWNfaHRtbC9jYWNoZS9hdF9uaW5lX2ZsYXQvdGVtcGxhdGUuanM=" type="text/javascript"></script>
+  <script src="../../templates/at_nine_flat/html/mod_menu/assets/js/avatar_menu_custom.js" type="text/javascript"></script>
+  <script type="text/javascript">
+jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});
+  </script>
+<link rel="stylesheet" href="../../templates/at_nine_flat/showcases/green/css/color.css" type="text/css"/><meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+<script type='text/javascript'>
+
+			jQuery.noConflict();
+
+			(function($){
+
+				$(document).ready(function()
+
+				{
+
+					if ($('body').hasClass('avatar-responsive'))
+
+					{
+
+						var mainMenu = $('.at-main-menu > ul');
+
+						var mainMenWrap = $ ('.at-main-menu');
+
+						
+
+						mainMenWrap.find('span.menu-pull').click(function(event){
+
+							$(this.getParent()).find('ul:first').slideToggle();
+
+						});
+
+						
+
+						mainMenu.find('li > span.pull').click(function(event){
+
+							$(this.getParent()).find('ul:first').slideToggle();
+
+						});
+
+						
+
+						$(window).resize(function(){
+
+							if($(window).width() > 767) {
+
+								mainMenu.find('ul').removeAttr('style');
+
+							}
+
+						});
+
+						function at_responsive_transfer(){				
+
+							var at_default_width = 1000;
+
+							if($(window).width() < at_default_width){
+
+								$('.block-default-width').addClass('block-max-width-100');
+
+								$('.block-default-width').addClass('block-default-width-tmp');
+
+								$('.block-default-width-tmp').removeClass('block-default-width');
+
+							}
+
+							else{
+
+								$('.block-default-width-tmp').removeClass('block-max-width-100');
+
+								$('.block-default-width-tmp').addClass('block-default-width');
+
+								$('.block-default-width').removeClass('block-default-width-tmp');
+
+							}			
+
+						}		    
+
+						at_responsive_transfer();			
+
+						$(window).resize(function(e){		    	
+
+							at_responsive_transfer();		    
+
+						});
+
+					}
+
+				});
+
+			})(jQuery)
+
+		</script>
+
+			<script type='text/javascript'>
+
+			jQuery.noConflict();
+
+			(function($){
+
+				$(document).ready(function() {
+
+					var goToTop = $('#avatar-go-to-top');
+
+					goToTop.hide();
+
+					
+
+					// fade in #back-top
+
+					$(function () {
+
+						$(window).scroll(function () {
+
+							if ($(this).scrollTop() > 100) {
+
+								goToTop.fadeIn();
+
+							} else {
+
+								goToTop.fadeOut();
+
+							}
+
+						});
+
+				
+
+						// scroll body to 0px on click
+
+						goToTop.click(function () {
+
+							$('body,html').animate({
+
+								scrollTop: 0
+
+							}, 800);
+
+							return false;
+
+						});
+
+					});
+
+				});
+
+			})(jQuery)
+
+			</script>
+
+		
+
+	 		<script type='text/javascript'>
+
+				jQuery.noConflict();
+
+				(function($){
+
+					$(document).ready(function()
+
+					{
+
+						avatarTemplate.template.name = "at_nine_flat" 
+
+						avatarTemplate.image.initEffects();
+
+						avatarTemplate.layout.init();
+
+						avatarTemplate.settingPanel.init();
+
+					});
+
+				})(jQuery)
+
+			</script>
+
+	 	<style type="text/css">
+body { background-image: url(../../templates/at_nine_flat/backgrounds/white.png);}
+a:link, a:visited { color:#333333;}
+a:hover { color: #ab3a3a;}
+body{ font-family: Tahoma, Geneva, sans-serif;}
+.at-main-menu *{ font-family: Tahoma, Geneva, sans-serif;}
+h1{font-family: Tahoma;}
+h2{font-family: Tahoma;}
+h3{font-family: Tahoma;}
+h4{font-family: Tahoma;}
+h5{font-family: Tahoma;}
+h6{font-family: Tahoma;}
+</style>		<style type="text/css">
+			.avatar-wrapper{
+				width: 1000px;
+				margin: auto;
+			}
+			
+			#avatar-pos-top-left {
+				width: 22%;
+			}
+			#avatar-pos-top-middle {
+				width: 68%;
+			}
+			#avatar-pos-top-right {
+				width: 10%;
+			}
+			
+			#avatar-pos-footer-left {
+				width: 70%;
+			}
+			#avatar-pos-footer-middle {
+				width: 10%;
+			}
+			#avatar-pos-footer-right {
+				width: 20%;
+			}
+			
+			#avatar-pos-promo-top-left {
+				width: 50%;
+			}
+			#avatar-pos-promo-top-middle {
+				width: 100%;
+			}
+			#avatar-pos-promo-top-right {
+				width: 50%;
+			}
+			
+			#avatar-pos-promo-bottom-left {
+				width: 50%;
+			}
+			#avatar-pos-promo-bottom-middle {
+				width: 100%;
+			}
+			#avatar-pos-promo-bottom-right {
+				width: 50%;
+			}
+			
+			#avatar-left {
+				width: 23%;
+			}
+			#avatar-right {
+				width: 23%;
+			}
+			#avatar-content {
+				width: 100%;
+			}
+			#avatar-pos-inner-left {
+				width: 23%;
+			}
+			#avatar-pos-inner-right {
+				width: 23%;
+			}
+			
+			#avatar-main-content{
+				width: 100%;
+			}
+					</style>
+		
+		<script type="text/javascript">
+
+				  var _gaq = _gaq || [];
+
+				  _gaq.push(["_setAccount", "UA-65838489-1"]);
+
+				  _gaq.push(["_trackPageview"]);
+
+
+
+				  (function() {
+
+					var ga = document.createElement("script"); ga.type = "text/javascript"; ga.async = true;
+
+					ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";
+
+					var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ga, s);
+
+				  })();
+
+
+
+				</script>	
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','../../../www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-37351440-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- Universal Google Analytics Plugin by PB Web Development -->
+
+
+
+
+<!-- BEGIN Advanced Google Analytics - http://deconf.com/advanced-google-analytics-joomla/ -->
+<script type="text/javascript">
+(function($){
+    $(window).load(function() {
+            $('a').filter(function() {
+				return this.href.match(/.*\.(zip|mp3*|mpe*g|pdf|docx*|pptx*|xlsx*|jpe*g|png|gif|tiff|rar*)(\?.*)?$/);
+            }).click(function(e) {
+                ga('send','event', 'download', 'click', this.href);
+            });
+            $('a[href^="mailto"]').click(function(e) {
+                ga('send','event', 'email', 'send', this.href);
+             });
+            var loc = location.host.split('.');
+            while (loc.length > 2) { loc.shift(); }
+            loc = loc.join('.');
+            var localURLs = [
+                              loc,
+                              'www.kalycito.com'
+                            ];
+            $('a[href^="http"]').filter(function() {
+			if (!this.href.match(/.*\.(zip|mp3*|mpe*g|pdf|docx*|pptx*|xlsx*|jpe*g|png|gif|tiff|rar*)(\?.*)?$/)){
+				for (var i = 0; i < localURLs.length; i++) {
+					if (this.href.indexOf(localURLs[i]) == -1) return this.href;
+				}
+			}
+            }).click(function(e) {
+                ga('send','event', 'outbound', 'click', this.href);
+            });
+    });
+})(jQuery);
+</script>
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','../../../www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-37351440-1', 'auto');  
+  
+ga('require', 'displayfeatures');
+ga('set', 'anonymizeIp', true);
+ga('set', 'dimension1', 'jenifer');
+ga('set', 'dimension2', 'Quick start  guide - openCONFIGURATOR');
+ga('set', 'dimension3', '2016');
+ga('set', 'dimension4', 'guest');
+ga('send', 'pageview');
+</script>
+<!-- END Advanced Google Analytics -->
+
+
+</head>
+	<body id="avatar-template" class="avatar-responsive">
+<!-- Google Tag Manager V0.0.10 from Tools for Joomla -->
+<noscript><iframe src='http://www.googletagmanager.com/ns.html?id=GTM-K68WVX'
+height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'../../../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K68WVX');</script>
+<!-- End Google Tag Manager -->
+		<div id="top"></div>
+						<div class="clearfix">
+							<a id="avatar-go-to-top" href="#top">
+					<span>Back to top </span>
+				</a>
+									
+						
+						
+						
+						
+															
+						
+							<div id="avatar-header-inside-block">
+					<div class="avatar-wrapper block-default-width">
+											<div id="avatar-pos-top-left">
+									<div class="avatar-module avatar-logo no-padding-margin">
+					<div class="avatar-module-content">
+				
+
+<div class="custom"  >
+	<p style="margin-left: 40px;"><img src="../../images/logo-kalycito-rnd-partner.png" alt="Kalycito - Your R&amp;D Partner!" /></p></div>
+			</div>
+		</div>
+	
+						</div>
+										
+											<div id="avatar-pos-top-middle">
+									<div class="avatar-module no-padding-margin">
+					<div class="avatar-module-content">
+				<div class="avatar-nav-responsive avatar-menu at-main-menu">
+<span class="avatar-main-menu-slider"></span>
+<span class="menu-pull"></span>
+<ul class="at-menu-horizontal menu clearfix avatar-main-menu">
+<li class="item-101"><a href="../../index.html" >Home</a></li><li class="item-106"><a href="../about-us.html" >About us</a></li><li class="item-107"><a href="../services.html" >Services</a></li><li class="item-108"><a href="../solution.html" >Solutions</a></li><li class="item-110"><a href="../resources.html" >Resources</a></li><li class="item-113"><a href="../career.html" >Careers</a></li><li class="item-114"><a href="../contact.html" >Contact</a></li></ul></div>			</div>
+		</div>
+	
+						</div>
+										
+											<div id="avatar-pos-top-right">
+									<div class="avatar-module avatar-top-social">
+					<div class="avatar-module-content">
+				
+<div class="at-social-links">
+
+<div class="at-social-enews-effect-1">
+<ul class="at-social-list">
+
+	<li class="at-social-item" style="height: 30px;width: 30px;">
+		<a href="https://www.linkedin.com/company/kalycito" target="_blank"><div style="height: 20px;width: 20px;background-image: url('../../images/at_social_icons/linkedin.png')"></div></a>
+	</li>	
+
+	<li class="at-social-item" style="height: 30px;width: 30px;">
+		<a href="https://www.facebook.com/Kalycito" target="_blank"><div style="height: 20px;width: 20px;background-image: url('../../images/at_social_icons/facebook.png')"></div></a>
+	</li>	
+
+<li class="clearbreak"></li>
+</ul>
+</div>
+</div>			</div>
+		</div>
+	
+						</div>
+										<div class="clearbreak"></div>
+					</div>
+				</div>
+						
+			<div id="avatar-tool-block">
+				<div class="avatar-wrapper block-max-width-100">
+														<div class="avatar-module avatar-separate-module">
+					<div class="avatar-module-content">
+				
+
+<div class="custom"  >
+	</div>
+			</div>
+		</div>
+	
+									</div>
+			</div>
+			
+								
+									
+			<div id="avatar-body-middle-block" class=" ">
+				<div class="avatar-wrapper block-default-width">
+				<div class="inner">
+								
+				<div id="avatar-content">
+					<div class="inner">
+												
+						<div id="avatar-main-content">
+							<div id="avatar-main-content-inner">
+														
+															<div id="avatar-pos-message">
+									<div id="system-message-container">
+	</div>
+
+								</div>	
+														
+														
+														
+														
+														
+															<div id="avatar-pos-main-body">
+																			<div class="item-page">
+								
+		 
+	
+		 
+		
+	
+			<div class="avatar-article-img-date-intro">
+						</div>
+		<div class="clr"></div>
+		
+	
+
+		
+						
+			<div class="avatar-article-fulltext">
+	<h1 class="avatar-char-color">Open source configuration management tool for IIoT &amp; Industrial Networking<br /><br /></h1>
+<div id="accordion2" class="accordion at-accordion-1">
+<div class="accordion-group">
+<h1 class="accordion-heading"><span class="avatar-char-color" style="font-size: 20px;"><a class="accordion-toggle" href="#collapseOne" data-toggle="collapse" data-parent="#accordion2">IIoT Landscape</a></span></h1>
+<div id="collapseOne" class="accordion-body collapse">
+<div class="accordion-inner">
+<p class="para-text">Today, everyone speaks about Industry 4.0 and Industrial IoT and how these buzz words are going to disrupt the automation landscape. Are these merely buzz words are they are really capable of disruption?</p>
+<p class="para-text">A closer look reveal that computing systems got split between desktop computers and automation computing devices early in the evolution. This split had ensured that these systems evolved in their own directions for nearly 40 years now.</p>
+<p class="para-text">However, the more recent phenomenon like the internet and smart phones have created a need for these systems to converge. This is mainly driven by the possibility to have seamless connectivity in personal and work life of every human being in this planet. As more and more people come onboard and start interacting with the rest of the world through their mobile phone and a bunch of apps delivered from the cloud, possibilities for newer and more innovative use cases are emerging.</p>
+<p class="para-text">This new found need is clearly visible, when we look at the traditional desktop computers and the fact that they are losing their importance in our day to day life. While this is quite visible in the desktop computing space, the same is happening in the automation industry. The traditional automation computing systems like the PLCs, are facing obsolescence in the face of newer more connected devices that are internet and cloud ready. It should be noted that the smart phone – the first IoT device cannot replace these newer IoT ready industrial devices. This paves the way for Industrial IoT as a separate domain.</p>
+<p class="para-text">The next 10 years is going to see a number of disruptions in this space completely changing the way our world functions.</p>
+</div>
+</div>
+</div>
+<div class="accordion-group">
+<h1 class="accordion-heading"><span class="avatar-char-color" style="font-size: 20px;"><a class="accordion-toggle" href="#collapseTwo" data-toggle="collapse" data-parent="#accordion2">IoT Vs IIoT – The main differences</a></span></h1>
+<div id="collapseTwo" class="accordion-body collapse">
+<div class="accordion-inner">
+<table class="table table-heading" style="width: 850px; margin-left: auto; margin-right: auto;">
+<tbody>
+<tr>
+<td class="avatar-char-color">IoT</td>
+<td class="avatar-char-color">IIoT</td>
+</tr>
+<tr>
+<td class="para-text">
+<ul class="the-plus">
+<li>Consumer buys the things</li>
+</ul>
+</td>
+<td class="para-text">
+<ul class="the-plus">
+<li>It’s about larger groups of systems</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="para-text">
+<ul class="the-plus">
+<li>People are willing to compromise privacy vs convenience</li>
+</ul>
+</td>
+<td class="para-text">
+<ul class="the-plus">
+<li>Data security is absolutely important</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="para-text">
+<ul class="the-plus">
+<li>Connectivity cannot be guaranteed</li>
+</ul>
+</td>
+<td class="para-text">
+<ul class="the-plus">
+<li>Connectivity can be guaranteed for mission critical applications</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="para-text">
+<ul class="the-plus">
+<li>Important but not critical</li>
+</ul>
+<p> </p>
+<p> </p>
+</td>
+<td class="para-text">
+<ul class="the-plus">
+<li>Mission critical</li>
+<ul class="the-plus">
+<li>24x7</li>
+<li>Deterministic</li>
+<li>Data integrity</li>
+<li>Security</li>
+</ul>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="para-text">
+<ul class="the-plus">
+<li>Devices are new and generally infrastructure is not of significant relevance</li>
+</ul>
+</td>
+<td class="para-text">
+<ul class="the-plus">
+<li>Infrastructure may have to be retrofitted as some of them will be more than 100 years old but still functional</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="para-text">
+<ul class="the-plus">
+<li>Open standards are extremely successful, interoperability is not a challenge anymore and they disrupt the market</li>
+</ul>
+</td>
+<td class="para-text">
+<ul class="the-plus">
+<li>Few companies hold monopoly and interoperability is a major challenge. However, this will change in the next 10 years</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="accordion-group">
+<h1 class="accordion-heading"><span class="avatar-char-color" style="font-size: 20px;"><a class="accordion-toggle" href="#collapseThree" data-toggle="collapse" data-parent="#accordion2">IIoT Hardware vs Software</a></span></h1>
+<div id="collapseThree" class="accordion-body collapse">
+<div class="accordion-inner">
+<p class="para-text">A traditional automation vendor normally provides the software bundled along with the device. Most of these software will not interoperate with devices from other manufacturers. In the new world, the device will be bundled with the software. In most cases, this software will be delivered as a service. The service provider will have more obligation to interoperate.</p>
+</div>
+</div>
+</div>
+<div class="accordion-group">
+<h1 class="accordion-heading"><span class="avatar-char-color" style="font-size: 20px;"><a class="accordion-toggle" href="#collapseFour" data-toggle="collapse" data-parent="#accordion2">IIoT Early adopters and relevance of Eclipse IDE</a></span></h1>
+<div id="collapseFour" class="accordion-body collapse">
+<div class="accordion-inner">
+<p class="para-text">Most of the early adopters of IIoT are going to be system integrators and large machine builders who also have their own embedded devices as part of their automation network. Most of these embedded device development teams will already be using eclipse as their primary development tool. It should be noted that eclipse is a free software with a business-friendly license and is also one of the most preferred IDE for developing applications in Java – the primary language of the IoT world. Eclipse offers a mature plugin framework that can be used to easily customize the IDE for the newer needs of IIoT.</p>
+<p class="para-text">Some of the newer need of IIoT may include:</p>
+<ul class="the-plus">
+<li>
+<p class="para-text">Configuration parametrization over a large network</p>
+</li>
+<li class="para-text">
+<p class="para-text">Programming the IIoT device using traditional IEC languages</p>
+</li>
+<li class="para-text">
+<p class="para-text">Configuration and firmware download management</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="accordion-group">
+<h1 class="accordion-heading"><span class="avatar-char-color" style="font-size: 20px;"><a class="accordion-toggle" href="#collapseFive" data-toggle="collapse" data-parent="#accordion2">IIoT Parameterization Challenge</a></span></h1>
+<div id="collapseFive" class="accordion-body collapse">
+<div class="accordion-inner">
+<p class="para-text">Once the focus shifts from the hardware to software and you have multiples of the hardware distributed over a large geography/network, the configuration of these in software is going to be a challenge. How to manage the variations of hardware at each node and how to build a consolidated view at the central location are some of the items you may have to be worried about. How to manage the firmware in each distributed node, how to download the configuration changes to each node will all have to be managed.</p>
+</div>
+</div>
+</div>
+<div class="accordion-group">
+<h1 class="accordion-heading"><span class="avatar-char-color" style="font-size: 20px;"><a class="accordion-toggle" href="#collapseSix" data-toggle="collapse" data-parent="#accordion2">openCONFIGURATOR Plugin - IIoT configuration tool</a></span></h1>
+<div id="collapseSix" class="accordion-body collapse">
+<div class="accordion-inner">
+<p class="para-text">If you are looking out for a solution to manage configuration of your devices in a IIoT network, you may be interested in having a look at openCONFIGURATOR project. openCONFIGRUATOR is a BSD licensed configuration manager plugin for Eclipse IDE. It is based on POWERLINK standards which in itself is an open source standard for Industrial communication and is nearly compatible with CANOpen standards.</p>
+</div>
+</div>
+</div>
+</div>
+<p><br /><br /></p>
+<p class="avatar-char-color">Getting Started with openCONFIGURATOR</p>
+<ul class="the-arrow">
+<li class="avatar-char-color"><a title="Quick start guide - openCONFIGURATOR" href="192-openconfigurator-open-source-tool-for-your-configuration-requirements.html">openCONFIGURATOR – Open source tool for your configuration requirements</a></li>
+</ul>
+<p><br /><br /></p>	</div>
+
+	
+						 </div>
+
+																	</div>	
+														
+														
+													
+													
+														</div>
+						</div>
+						
+												<div class="clearbreak"></div>
+					</div>
+				</div>
+								<div class="clearbreak"></div>
+				</div>
+				</div>
+			</div>
+																						<div id="avatar-footer-inside-block">
+					<div class="avatar-wrapper block-default-width">
+										
+											<div id="avatar-pos-footer-left">
+									<div class="avatar-module no-padding-margin-side">
+					<div class="avatar-module-content">
+				
+
+<ul class="menu clearfix avatar-footer-nav">
+<li class="item-101"><a href="../../index.html" >Home</a></li><li class="avatar-menu-before item-106"><a href="../about-us.html" >About us</a></li><li class="avatar-menu-before item-107"><a href="../services.html" >Services</a></li><li class="avatar-menu-before item-108"><a href="../solution.html" >Solutions</a></li><li class="avatar-menu-before item-110"><a href="../resources.html" >Resources</a></li><li class="avatar-menu-before item-113"><a href="../career.html" >Careers</a></li><li class="avatar-menu-before item-114"><a href="../contact.html" >Contact</a></li></ul><div style="clear:both;"></div>
+			</div>
+		</div>
+	
+						</div>
+										
+										
+											<div id="avatar-pos-footer-right">
+									<div class="avatar-module no-padding-marging">
+					<div class="avatar-module-content">
+				
+<div class="at-social-links">
+
+<div class="at-social-enews-effect-1">
+<ul class="at-social-list">
+
+	<li class="at-social-item" style="height: 45px;width: 45px;">
+		<a href="https://www.linkedin.com/company/kalycito" target="_blank"><div style="height: 35px;width: 35px;background-image: url('../../images/at_social_icons/Linkedin1.png')"></div></a>
+	</li>	
+
+	<li class="at-social-item" style="height: 45px;width: 45px;">
+		<a href="https://www.facebook.com/Kalycito" target="_blank"><div style="height: 35px;width: 35px;background-image: url('../../images/at_social_icons/Facebook1.png')"></div></a>
+	</li>	
+
+	<li class="at-social-item" style="height: 45px;width: 45px;">
+		<a href="https://www.youtube.com/channel/UCyXtHWnWskJWVbNJQJWKLLw" target="_blank"><div style="height: 35px;width: 35px;background-image: url('../../images/at_social_icons/Youtube1.png')"></div></a>
+	</li>	
+
+<li class="clearbreak"></li>
+</ul>
+</div>
+</div>			</div>
+		</div>
+	
+						</div>
+										<div class="clearbreak"></div>
+					</div>
+				</div>
+						
+						
+									
+		</div>
+		<div id="avatar-debug">
+			
+		</div>
+	</body>
+
+<!-- Mirrored from www.kalycito.com/index.php/openconfigurator/193-open-source-configuration-management-tool-for-iiot-industrial-networking by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 14 Jun 2017 05:23:54 GMT -->
+</html>

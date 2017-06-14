@@ -1,0 +1,23 @@
+.at-nine-flat-services .at-intro-item {
+	position: relative;
+	padding: 10px 10px 10px 125px;
+	margin: 5px 0;
+}
+.at-nine-flat-services .at-intro-item .avatar-item-img{
+	position: absolute;
+	left: 0;
+	width: 100px;
+	height: 90px;
+	background-repeat: no-repeat;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	background-color: #2c2c2c;
+	background-position: center;
+}
+.at-nine-flat-services .at_readmore_text{
+	font-weight: bold;
+}
+.at-nine-flat-services .at-k2-group .avatar-item-img{
+	background-size: cover;
+}

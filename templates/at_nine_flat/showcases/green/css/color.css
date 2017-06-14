@@ -1,0 +1,81 @@
+a,a:link,a:hover,a:visited,.page-header *,
+.avatar-main-menu >li:hover >a,
+.avatar-main-menu >li:hover >span,
+.avatar-main-menu >li.active >a,
+.avatar-main-menu >li.active >span,
+.avatar-module-6 .avatar-module-heading *,
+.avatar-module-4 .avatar-module-heading *,
+.form-heading,
+.avatar-blog-item:hover .avatar-publish-date >span p,
+.avatar-blog-item:hover .avatar-item-title a,
+.avatar-blog-item:hover .avatar-tags,
+.avatar-blog-item:hover .avatar-tags *,
+.avatar-newsflash .avatar-item:hover .newsflash-title a,
+.avatar-newsflash .avatar-item:hover .newsflash-title,
+.at-nine-flat-showcase .at-intro-item:hover .at-item-title a,
+.at-nine-flat-showcase .at-intro-item:hover .at-item-title,
+.avatar-char-color,
+.at-nine-flat-services .at_readmore_text:hover{	color: #AB3A3A;}
+.avatar-product-launch-dl-btn,
+#avatar-full-2-block,
+.avatar-product-launch-1-buy-now,
+.avatar-product-launch-1-sale-price,
+.avatar-features .avatar-item:hover .avatar_readmore_text,
+.at-nine-flat-features .at-intro-item:hover .at_readmore_text,
+.avatar-main-menu >li ul .parent:hover,
+.avatar-main-menu-slider,
+.buy-now-wrap .buy-now-button,
+.avatar-team-1 .avatar-item:hover .avatar-shadow-inset,
+.at-nine-flat-team-1 .at-intro-item:hover .at-shadow-inset,
+.avatar-skills-diagram-1 >li >div,
+.avatar-skills-diagram >li >div,
+.facebook-white,.twitter-white,
+.avatar-features-1 .avatar-item:hover,
+.at-nine-flat-features-1 .at-intro-item:hover,
+.avatar-services .avatar-item:hover .avatar-item-img,
+.at-nine-flat-services .at-intro-item:hover .avatar-item-img,
+.avatar-recent-work .avatar-item:hover .avatar_readmore .avatar_readmore_icon,
+.at-nine-flat-recent-works .at-intro-item:hover .at_readmore .at_readmore_icon,
+.avatar-features .avatar-item:hover .avatar-item-img,
+.at-nine-flat-features .at-intro-item:hover .avatar-item-img,
+.avatar-features .avatar-item:hover .avatar_readmore_text,
+.at-nine-flat-features .at-intro-item:hover .at_readmore_text,
+.avatar-main-menu >li ul li:hover,
+.avatar-module-1 .avatar-module-heading,
+.avatar-module-2 .avatar-module-heading,
+.avatar-module-5 .avatar-module-heading,
+.avatar-module-7 .avatar-module-heading >span,
+.pagination_nav .center .page a,
+.avatar-shadow-inset,.at-shadow-inset,
+.at-nine-flat-devices .avatar-item-img,
+.avatar-top-social li{background-color: #AB3A3A;}
+.page-header >*{border-bottom: #AB3A3A solid 2px;}
+.avatar-main-menu ul {border-top: solid 3px #AB3A3A;}
+.avatar-main-menu >li ul li:hover{border-left: solid 1px #AB3A3A;border-right: solid 1px #AB3A3A;}
+.avatar-module-7 .avatar-module-heading{border-bottom: solid 4px #AB3A3A;}
+.avatar-skills .avatar-skills-list li:after{border: solid #AB3A3A 8px;}
+.avatar-team-1 .avatar-shadow-inset,
+.at-nine-flat-team-1 .at-shadow-inset{border-bottom: solid 6px #AB3A3A;}
+.avatar-team-1 .avatar-item-img:after,
+.at-nine-flat-team-1 .avatar-item-img:after{border-left: solid 6px #AB3A3A;}
+.avatar-team-1 .avatar-item-img:before,
+.at-nine-flat-team-1 .avatar-item-img:before{border-right: solid 6px #AB3A3A;}
+.avatar-features-1 .avatar-item:hover .avatar-item-img,
+.at-nine-flat-features-1 .at-intro-item:hover .avatar-item-img{background-color: #AB3A3A;}
+.avatar-logo .avatar-module-content a{background: url("../images/nine-flat-logo.png") no-repeat center;}
+.avatar-separate-module {background: url('../images/sample/separate/separate.png') no-repeat center;border-bottom: solid 3px #AB3A3A;}
+.avatar-devices .avatar-item-wrap-0 .avatar-item-img,
+..at-nine-flat-devices .avatar-item-wrap-0 .avatar-item-img{background-color: #AB3A3A;}
+.avatar-devices .avatar-item-wrap-1 .avatar-item-img,
+.at-nine-flat-devices .avatar-item-wrap-1 .avatar-item-img{background-color: #AB3A3A;}
+.avatar-devices .avatar-item-wrap-2 .avatar-item-img,
+.at-nine-flat-devices .avatar-item-wrap-2 .avatar-item-img{background-color: #AB3A3A;}
+.avatar-devices .avatar-item-img,
+.at-nine-flat-devices .avatar-item-img{border: solid 3px #AB3A3A;}
+.avatar-devices .avatar-item-wrap-0 .ch-full-immg-wrap,
+.at-nine-flat-devices .avatar-item-wrap-0 .ch-full-immg-wrap{border-bottom: solid 4px #AB3A3A;}
+.avatar-devices .avatar-item-wrap-1 .ch-full-immg-wrap,
+.at-nine-flat-devices .avatar-item-wrap-1 .ch-full-immg-wrap{border-bottom: solid 4px #AB3A3A;}
+.avatar-devices .avatar-item-wrap-2 .ch-full-immg-wrap,
+.at-nine-flat-devices .avatar-item-wrap-2 .ch-full-immg-wrap{border-bottom: solid 4px #AB3A3A;}
+.at-nine-flat-devices .ch-full-immg-wrap {border-bottom: solid 4px #AB3A3A;}

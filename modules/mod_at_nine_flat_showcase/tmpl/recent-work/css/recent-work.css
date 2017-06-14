@@ -1,0 +1,11 @@
+.at-nine-flat-recent-works .at-intro-item:hover .at-shadow-inset{opacity: 0.8;}
+.at-nine-flat-recent-works .at-intro-item:hover .at-readmore-icon{opacity: 1; left: 50%;}
+.at-nine-flat-recent-works .at-intro-item:hover .at-zoom-icon{opacity: 1; right: 50%;}
+.at-nine-flat-recent-works .avatar-item-img{position: relative;	display: block;	width: 100%; background-size: cover; background-position: center; background-repeat: no-repeat;}
+.at-nine-flat-recent-works{margin-bottom: 30px;}
+.at-nine-flat-recent-works .at_readmore{padding-right: 17px;}
+.at-nine-flat-recent-works .at_readmore .at_readmore_text {padding: 5px; font-size: 11px; line-height: 18px; border: solid 1px #bcbcbc;	border-right: none;}
+.at-nine-flat-recent-works .at_readmore .at_readmore_icon {position: absolute; bottom: 0; right: 0; background: #393939; color: #fff; margin-left: -4px; font-size: 16px; line-height: 29px; padding:0 6px; height: 100%;}
+.at-nine-flat-recent-works .at-readmore-icon{background: url('../images/readmore-icon.png') transparent no-repeat center; left: 23px; margin-left: 10px;}
+.at-nine-flat-recent-works .at-zoom-icon{right: 23px;	margin-right: 10px; background: url('../images/zoom-icon.png') transparent no-repeat center;}
+.at-nine-flat-recent-works .avatar-item-img{height: 150px;}

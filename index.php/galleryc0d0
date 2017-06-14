@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Gallery</title>
+		<description><![CDATA[Kalycito - Your R&D Partner!]]></description>
+		<link>https://www.kalycito.com/index.php/gallery</link>
+		<lastBuildDate>Wed, 14 Jun 2017 05:22:22 +0000</lastBuildDate>
+		<generator>Joomla! - Open Source Content Management</generator>
+		<atom:link rel="self" type="application/rss+xml" href="https://www.kalycito.com/index.php/gallery?format=feed&amp;type=rss"/>
+		<language>en-gb</language>
+		<managingEditor>info@kalycito.com (Kalycito - Your R&amp;D Partner!)</managingEditor>
+		<item>
+			<title>Gallery 1</title>
+			<link>https://www.kalycito.com/index.php/gallery/210-gallery-1</link>
+			<guid isPermaLink="true">https://www.kalycito.com/index.php/gallery/210-gallery-1</guid>
+			<description><![CDATA[<p class="avatar-char-color">Outdoor training program in Jan 2017</p>
+<p class="avatar-char-color">{gallery}/gallery/outdoor-training{/gallery}</p>
+<p class="avatar-char-color">Kalycito day celebrations in June 2016</p>
+<p class="avatar-char-color">{gallery}/gallery/kalycito-day{/gallery}</p>
+<p><strong><em>*The pictures in our gallery is greyed out because we respect the privacy of our team members!</em></strong><br /><br /></p>]]></description>
+			<author>jenifer.a@kalycito.com (jenifer)</author>
+			<category>Gallery</category>
+			<pubDate>Fri, 10 Feb 2017 12:20:04 +0000</pubDate>
+		</item>
+	</channel>
+</rss>
