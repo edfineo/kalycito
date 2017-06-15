@@ -1,1 +1,0 @@
-loadCSS( "modules/mod_avatar_articles_nivo/assets/css/nivo-slider.css" );
