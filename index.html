@@ -29,34 +29,14 @@
   <link rel="stylesheet" href="modules/mod_avatar_articles_nivo/assets/css/default.css"  type="text/css" />
   
   <link rel="preload" href="modules/mod_avatar_articles_nivo/assets/css/nivo-slider.css" as="style" onload="this.rel='stylesheet'">
-  <script>
-      /*!
-      Modified for brevity from https://github.com/filamentgroup/loadCSS
-      loadCSS: load a CSS file asynchronously.
-      [c]2014 @scottjehl, Filament Group, Inc.
-      Licensed MIT
-      */
-      function loadCSS(href){
-        var ss = window.document.createElement('link'),
-            ref = window.document.getElementsByTagName('head')[0];
-
-        ss.rel = 'stylesheet';
-        ss.href = href;
-
-        // temporarily, set media to something non-matching to ensure it'll
-        // fetch without blocking render
-        ss.media = 'only x';
-
-        ref.parentNode.insertBefore(ss, ref);
-
-        setTimeout( function(){
-          // set media back to `all` so that the stylesheet applies once it loads
-          ss.media = 'all';
-        },0);
-      }
-      loadCSS('modules/mod_avatar_articles_nivo/assets/css/nivo-slider.css');
-    </script>
-  
+  <noscript><link rel="stylesheet" href="modules/mod_avatar_articles_nivo/assets/css/nivo-slider.css"></noscript>
+<script>
+/*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
+(function(){ ... }());
+/*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
+(function(){ ... }());
+</script>
+ 
   <script  type="text/javascript">
 jQuery(window).on('load',  function() {
 				new JCaption('img.caption');
