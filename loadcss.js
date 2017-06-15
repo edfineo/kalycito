@@ -1,0 +1,1 @@
+loadCSS( "modules/mod_avatar_articles_nivo/assets/css/default.css" );
