@@ -28,13 +28,9 @@
   <link rel="stylesheet" href="modules/mod_at_nine_flat_showcase/tmpl/features-1/css/features-1.css"  type="text/css" />
   <link rel="stylesheet" href="modules/mod_avatar_articles_nivo/assets/css/default.css"  type="text/css" />
   
-  <link rel="preload" href="modules/mod_avatar_articles_nivo/assets/css/nivo-slider.css" as="style" onload="this.rel='stylesheet'">
+  <link rel="stylesheet" href="modules/mod_avatar_articles_nivo/assets/css/nivo-slider.css" media="none" onload="if(media!='all')media='all'">
+  <noscript><link rel="stylesheet" href="modules/mod_avatar_articles_nivo/assets/css/nivo-slider.css"></noscript>
   
-  <script async src="js/loadCSS.js" id="loadCSS"></script>
-	<script async src="js/onloadCSS.js"></script>
-	<script async src="js/cssrelpreload.js"></script>
-	<script async src="js/tests.js"></script>
- 
 
   <script  type="text/javascript">
 jQuery(window).on('load',  function() {
