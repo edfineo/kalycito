@@ -29,14 +29,13 @@
   <link rel="stylesheet" href="modules/mod_avatar_articles_nivo/assets/css/default.css"  type="text/css" />
   
   <link rel="preload" href="modules/mod_avatar_articles_nivo/assets/css/nivo-slider.css" as="style" onload="this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="modules/mod_avatar_articles_nivo/assets/css/nivo-slider.css"></noscript>
-<script>
-/*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
-(function(){ ... }());
-/*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
-(function(){ ... }());
-</script>
+  
+  <script src="js/loadCSS.js" id="loadCSS"></script>
+	<script src="js/onloadCSS.js"></script>
+	<script src="js/cssrelpreload.js"></script>
+	<script src="js/tests.js"></script>
  
+
   <script  type="text/javascript">
 jQuery(window).on('load',  function() {
 				new JCaption('img.caption');
